@@ -27,9 +27,9 @@ const Clock = ({match}) =>{
                     </Link>
                     <div className="card-content">
                         <h5 className='center deep-orange-text'>{match.params.yer}</h5>
-                        <h4 className='center blue-gre  y-text'>{moment(time).format('MMMM,Do,YYYY,hh:m:ss a')}</h4>
-                        <h4 className='center blue-gre  y-text'>{week} of this year</h4>
-                        <h4 className='center blue-gre  y-text'>{day} day of this year</h4>
+                        <h4 className='center blue-grey-text'>{moment(time).format('MMMM,Do,YYYY,hh:m:ss a')}</h4>
+                        <h4 className='center blue-grey-text'>{week} of this year</h4>
+                        <h4 className='center blue-grey-text'>{day} day of this year</h4>
                     </div>
                 </div>
             </div>
